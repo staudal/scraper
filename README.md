@@ -59,6 +59,6 @@ Extract answer from only batch 67
 The system uses `config.yaml` for all configuration settings:
 
 - **LLM settings**: Model, temperature, API endpoints
-- **Scraping settings**: Batch size, timeouts, user agent
+- **Scraping settings**: Batch size
 - **Scoring thresholds**: Score ranges for relevance assessment
-- **Agent limits**: Maximum batches, early termination rules
+- **Agent limits**: Early termination rules

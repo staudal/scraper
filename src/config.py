@@ -32,7 +32,6 @@ LLM_CONFIG = {
 
 # Export commonly used config values
 BATCH_SIZE = CONFIG["scraping"]["batch_size"]
-MAX_BATCHES = CONFIG["agent"]["max_batches"]
 
 PERFECT_SCORE_THRESHOLD = CONFIG["scoring"]["perfect_score_threshold"]
 GOOD_SCORE_THRESHOLD = CONFIG["scoring"]["good_score_threshold"]
