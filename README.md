@@ -37,13 +37,21 @@ The agent will:
 ## Flow
 
 Website (10,000 words) → Split into 100 batches of 100 words each
+
 ↓
+
 Score batch 1: 45/100
+
 Score batch 2: 78/100
+
 Score batch 3: 23/100
+
 ...
+
 Score batch 67: 92/100 ← Best match
+
 ↓
+
 Extract answer from only batch 67
 
 ## Configuration
