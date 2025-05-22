@@ -1,0 +1,22 @@
+# LLM Configuration
+llm:
+  model: "claude-3-5-sonnet-20241022"
+  temperature: 0.1
+  base_url: "https://api.anthropic.com"
+  api_type: "anthropic"
+
+# Web Scraping Configuration
+scraping:
+  batch_size: 100
+
+# Scoring Configuration
+scoring:
+  perfect_score_threshold: 100
+  good_score_threshold: 90
+  fair_score_threshold: 60
+  poor_score_threshold: 30
+
+# Agent Configuration
+agent:
+  max_batches: 1000
+  early_termination_score: 95
